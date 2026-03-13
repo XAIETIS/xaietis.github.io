@@ -19,7 +19,7 @@
   nav a:hover{color:var(--accent);background:rgba(43,108,176,0.06)}
   .cta{background:var(--accent);color:#fff;padding:.5rem .9rem;border-radius:8px;text-decoration:none}
 
-  .imageWorkshop{background-image: url("./img/img_workshop.png"); height:50vh; background-size: 80%; background-position: center;}
+  .imageWorkshop{background-image: url("./img/school_logo.png"); height:50vh; background-size: 80%; background-position: center;}
 
   /* Hero */
   .hero{padding:3rem 0;display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center}
