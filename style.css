@@ -43,7 +43,12 @@
   grid-template-columns: 1fr 1fr;
   gap: 1rem;}
   .speaker{display:flex;gap:.8rem;align-items:flex-start}
-  .avatar{width:64px;height:64px;border-radius:8px;background:linear-gradient(135deg,#c7e2ff,#e9f2ff);display:grid;place-items:center;font-weight:700;color:var(--accent)}
+  .avatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 8px;
+  object-fit: cover; 
+}
   .speaker h3{margin:.1rem 0 .25rem;font-size:1rem}
   .speaker p{margin:0;color:var(--muted);font-size:.92rem}
   details{background:transparent}
